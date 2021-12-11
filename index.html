@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="Backend/style.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Kevin La Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Kevin La</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+    <!-- Home Section -->
+    <section class="home">
+      <img src="Backend/images/1.jpeg">
+      <div class="home-greet">Hello,</div>
+      <div class="home-greet2">My name is</div>
+      <div class="home-name">
+        <p>Kevin La</p>
+<!--       <div class="home-name-subtitle">Computer Scientist</div>
+ -->      </div>
+
+    </section>
+
+    <!-- More about -->
+    <section class="about" id="about">
+
+      <div class="bio animate__animated animate__shakeX">
+
+        <h2 class="about-title">About Me</h2>
+        <p class="about-text">
+          Hello! My name is Kevin La, and I am currently studying Computer Science as a 4th year at California State University, Fullerton. Computer Science has always been a fascinating topic for me because of how it surrounds and embodies society while doing it so seamlessly. Technology has always piqued my curiosity and is the main driving factor that urged me to become a computer scientist. The growth and innovation created by computer science allow me to design things unimaginable, only to be limited by my imagination.
+        </p>
+        <p>
+          This portfolio features the languages that I have developed throughout my studies and the many projects that I have completed on my own or with a team. As I continue my education, I hope to create new connections and expand my knowledge to one day find a career that will accomplish my goals.
+        </p>
+      </div>
+                  <img
+        src="Backend/images/me1.jpg"
+        loading="lazy"
+        class="me-img"
+      />
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 style="color:white;">.</h2>
+      <h2 style="color:white;">.</h2>
+      <h2 style="color:white;">.</h2>
+      <h2 style="color:white;">.</h2>
+
+      <h2 class="skill-header">Languages</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="Backend/images/icons/C++.png"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="Backend/images/icons/Java.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="Backend/images/icons/Swift.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="Backend/images/icons/html5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="Backend/images/icons/Python.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="Backend/images/icons/JS.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 style="color:white;">.</h2>
+      <h2 style="color:white;">.</h2>
+      <h2 style="color:white;">.</h2>
+      <h2 class="projects-title">Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <h3 class="project-title">Second Hand Goodies</h3>
+          <img
+            src="Backend/images/projects/SecondHandGoodies.png"
+            loading="lazy"
+            class="project-pic"
+          />
+          <p class="project-details">
+            SecondHandGoodies is an ecommerce site built with HTML, CSS, and Python Flask. SecondHandGoodies allows users to create post, descriptions, and prices for items they wish to sell or enter the products tab that uses an api to display merchandise for sale! Using SQLAlchemy, my team was able to take in users information and store them into a secure database.
+          </p>
+          <p>HTML | CSS | Python Flask</p>
+          <a href="https://github.com/KonechyJ/CPSC-362_Project1" target="_blank" class="project-link">Source Code</a>
+        </div>
+        <div class="project-container project-card">
+          <h3 class="project-title">OMOK</h3>          
+          <img
+            src="Backend/images/projects/OMOK.png"
+            loading="lazy"
+            class="project-pic"
+          />
+          <p class="project-details">
+            OMOK is a 2 player board game that combines the concept of tik-tac-toe and connect 4 to make a game designed that allows the player to place their pieces anywhere within the board, first to 5 wins. Created using Java Swing, players are able to compete with eachother locally until one prevails or ends up in a draw. 
+          </p>
+          <p><br>Java Swing</p>
+          <a href="https://github.com/Kevinla56/OMOK" target="_blank" class="project-link">Source Code</a>
+        </div>
+        <div class="project-container project-card">
+          <h3 class="project-title">Swift</h3>
+
+          <img
+            src="Backend/images/projects/Swift.png"
+            loading="lazy"
+            class="swift-pic"
+          />
+          <p class="project-details">
+            The Swift project was created with school in mind. The idea behind Swift was to create an environment where students are able to seek help with homework assignments, talk to other users about major advisment, or even talk about events outside of school such as gaming, sports, and more. All data inputed from users were stored using Google's Firebase Database.
+          </p>
+          <p>Swift</p>
+          <a href="https://github.com/Kevinla56/Hacktivist" target="_blank" class="project-link">Source Code</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+        <div class="contact-form">
+        <a href="https://github.com/Kevinla56" target="_blank">
+          <img
+            src="Backend/images/social/github.svg"
+            loading="lazy"
+            class="socicon contact-card"
+          />
+        </a>
+        <a href="https://www.linkedin.com/in/kevin-la-880697213/" target="_blank">
+          <img
+            src="Backend/images/social/linkedin.svg"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon contact-card"
+          />
+        </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="copy">Copyright &copy; 2021 Kevin La</p>
+      <p class="copy">
+      </p>
+    </footer>
+
+
+    <!-- Website scripts -->
+    <script src="Backend/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
